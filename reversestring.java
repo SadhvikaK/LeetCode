@@ -1,0 +1,10 @@
+import java.util.*;
+class reversestring{
+    public String reverse(String str){
+        if(str.length()==0){
+            return str;
+        }
+        return reverse(str.substring(1))+str.charAt(0);
+    }
+    public static void main()
+}
